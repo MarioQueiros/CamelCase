@@ -2,7 +2,9 @@
 
 ## Features
 
-Transform selected text in camel case notation 
+Transform selected text in camel case notation.
+
+Use `ctrl+alt+c` for Windows/Linux and `ctrl+cmd+c` on Mac.
 
 ## Release Notes
 
