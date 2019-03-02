@@ -2,7 +2,7 @@
     "name": "CamelCase",
     "displayName": "CamelCase",
     "description": "Camel case a text",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "publisher": "MarioQueiros",
     "author": {
         "email": "mariopqueiros@gmail.com",
@@ -23,16 +23,20 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [{
-            "command": "extension.camelCase",
-            "title": "CamelCase"
-        }],
-        "keybindings": [{
-            "command": "extension.camelCase",
-            "key": "ctrl+alt+c",
-            "linux": "ctrl+alt+c",
-            "mac": "ctrl+cmd+c"
-        }]
+        "commands": [
+            {
+                "command": "extension.camelCase",
+                "title": "CamelCase"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.camelCase",
+                "key": "ctrl+alt+c",
+                "linux": "ctrl+alt+c",
+                "mac": "ctrl+cmd+c"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "yarn run compile",
