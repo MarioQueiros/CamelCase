@@ -9,6 +9,9 @@
         "name": "Mario Queiros",
         "url": "https://marioqueiros.com"
     },
+    "repository": {
+        "url": "https://github.com/MarioQueiros/CamelCase"
+    },
     "engines": {
         "vscode": "^1.31.0"
     },
