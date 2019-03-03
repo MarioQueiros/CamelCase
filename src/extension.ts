@@ -17,15 +17,17 @@ export function activate(context: vscode.ExtensionContext) {
     () => {
       // The code you place here will be executed every time your command is executed
 
-      var editor = vscode.window.activeTextEditor;
+      let editor = vscode.window.activeTextEditor;
       if (!editor) {
         return; // No open text editor
       }
 
-      var selection = editor.selection;
-      var text = editor.document.getText(selection);
-
-      editor.edit((edit: any) => edit.replace(selection, _.camelCase(text)));
+      editor.edit((edit: vscode.TextEditorEdit) => {
+        for (let selection of editor.selections) {
+          var text = editor.document.getText(selection) || "";
+          edit.replace(selection, _.camelCase(text));
+        }
+      });
     }
   );
 
