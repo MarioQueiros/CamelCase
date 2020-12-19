@@ -46,14 +46,15 @@
         "test": "yarn run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^3.3.1",
-        "vscode": "^1.1.28",
-        "tslint": "^5.12.1",
-        "@types/node": "^10.12.21",
-        "@types/mocha": "^2.2.42"
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^10.17.49",
+        "tslint": "^5.20.1",
+        "typescript": "^3.9.7",
+        "vscode": "^1.1.37"
     },
     "dependencies": {
-        "@types/lodash": "^4.14.121",
-        "lodash": "^4.17.11"
+        "@types/lodash": "^4.14.165",
+        "lodash": "^4.17.20",
+        "npm": "^6.14.10"
     }
 }
