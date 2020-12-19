@@ -15,3 +15,7 @@ Initial release
 ### 1.0.4
 
 Enable edit of multiple selections
+
+### 1.0.5
+
+Upgraded dependencies
